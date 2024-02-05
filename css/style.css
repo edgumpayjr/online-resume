@@ -1,0 +1,8 @@
+.exp-title {
+    display: flex;
+}
+
+.exp-title div:nth-of-type(1) {
+    /* flex: 1 300px; */
+    flex: 1;
+}
