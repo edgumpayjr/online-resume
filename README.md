@@ -1,2 +1,2 @@
-# software-engineer-resume
+# online-resume
 My interactive online resume.
