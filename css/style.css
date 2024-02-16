@@ -1,8 +1,40 @@
-.exp-title {
-    display: flex;
+body {
+    width: 816px;
+    margin: 0 auto;
 }
 
-.exp-title div:nth-of-type(1) {
+main {
+    padding: 48px;
+    border: solid 1px;
+    margin: 100px 0;
+}
+
+section {
+    text-align: justify;
+}
+
+.section-sub-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-sub-title div:nth-of-type(1) {
     /* flex: 1 300px; */
     flex: 1;
+}
+
+.section-sub-title div:nth-of-type(1) p {
+    margin-bottom: 0;
+}
+
+.section-sub-title div:nth-of-type(2) p {
+    margin-bottom: 0;
+}
+
+.section-sub-title div:nth-of-type(3) {
+    width: 100%;
+}
+
+.section-sub-title div:nth-of-type(3) p {
+    margin: 0;
 }
